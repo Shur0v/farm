@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact || Agrikol || Agriculture Form HTML Template</title>
+    <title>Contact || Earth Asia Agro</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Fonts-->
     <link
@@ -46,27 +49,25 @@
 
     <div class="page-wrapper">
 
-
         <div class="site-header__header-one-wrap">
 
             <div class="topbar-one">
                 <div class="topbar_bg" style="background-image: url(assets/images/shapes/header-bg.png)"></div>
                 <div class="container">
-                    <div class="topbar-one__left">
-                        <a href="mailto:needhelp@tripo.com"><span class="icon-message"></span>needhelp@agrikol.com</a>
-                        <a href="tel:666-999-0000"><span class="icon-phone-call"></span>666 888 0000</a>
+                    <div class="topbar-one__left hover:text-blue-500 transition-colors duration-300">
+                        <a href="mailto:earthasiaagro@gmail.com" class="hover:text-blue-500 transition-colors duration-300"><span class="icon-message"></span>earthasiaagro@gmail.com</a>
+                        <a href="#" class="hover:text-blue-500 transition-colors duration-300"><span class="icon-phone-call"></span>+880 1820-820878</a>
                     </div>
-                    <div class="topbar-one__middle">
+                    <div class="topbar-one__middle flex justify-center items-center">
                         <a href="index.html" class="main-nav__logo">
-                            <img src="assets/images/resources/logo.png" class="main-logo" alt="Awesome Image" />
+                            <img src="assets/images/resources/logo.png" class="main-logo w-auto h-auto max-h-[100px] object-contain" alt="Awesome Image" />
                         </a>
                     </div>
                     <div class="topbar-one__right">
                         <div class="topbar-one__social">
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="https://www.facebook.com/people/Earth-Asia-Agro/61572538110659/" target="_blank" class="hover:text-blue-500 transition-colors duration-300"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" class="hover:text-blue-500 transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="hover:text-blue-500 transition-colors duration-300"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -74,77 +75,31 @@
 
             <header class="main-nav__header-one">
                 <nav class="header-navigation stricky">
-                    <div class="container clearfix">
+                    <div class="container clearfix flex justify-between items-center">
                         <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="main-nav__left">
+                        <div class="main-nav__left flex items-center gap-4">
                             <a href="#" class="main-nav__search search-popup__toggler"><i
                                     class="icon-magnifying-glass"></i></a>
                             <a href="#" class="side-menu__toggler">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </div>
-                        <div class="main-nav__main-navigation">
-                            <ul class=" main-nav__navigation-box">
+                        <div class="main-nav__main-navigation mx-auto">
+                            <ul class="main-nav__navigation-box flex justify-center space-x-8">
                                 <li class="dropdown">
-                                    <a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home 01</a></li>
-                                        <li><a href="index2.html">Home 02</a></li>
-                                        <li><a href="index3.html">Home 03</a></li>
-                                        <li><a href="index4.html">Home 04</a></li>
-                                        <li><a href="index5.html">Home 05</a></li>
-                                        <li class="dropdown"><a href="#">Header Versions</a>
-                                            <ul>
-                                                <li><a href="index.html">Header 01</a></li>
-                                                <li><a href="index2.html">Header 02</a></li>
-                                                <li><a href="index3.html">Header 03</a></li>
-                                                <li><a href="index4.html">Header 04</a></li>
-                                                <li><a href="index5.html">Header 05</a></li>
-                                            </ul><!-- /.sub-menu -->
-                                        </li>
-                                    </ul><!-- /.sub-menu -->
+                                    <a href="index.html" class="hover:text-green-600 transition-colors duration-300">Home</a>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="service.html">Services</a>
-                                    <ul>
-                                        <li><a href="service.html">Services</a></li>
-                                        <li><a href="service-detail.html">Services Detail</a></li>
-                                    </ul><!-- /.sub-menu -->
+                                    <a href="product.html" class="hover:text-green-600 transition-colors duration-300">Products</a>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="projects.html">Our Projects</a>
-                                    <ul>
-                                        <li><a href="projects.html">Projects</a></li>
-                                        <li><a href="projects_detail.html">Projects Detail</a></li>
-                                    </ul><!-- /.sub-menu -->
+                                    <a href="gallery.html" class="hover:text-green-600 transition-colors duration-300">Gallery</a>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">Shop</a>
-                                    <ul>
-                                        <li><a href="product.html">Products</a></li>
-                                        <li><a href="product-detail.html">Product Detail</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                    </ul><!-- /.sub-menu -->
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="why_choose_us.html">Why Choose Us</a></li>
-                                        <li><a href="farmers.html">Farmers</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                    </ul><!-- /.sub-menu -->
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">News</a>
-                                    <ul>
-                                        <li><a href="news.html">News</a></li>
-                                        <li><a href="news_detail.html">News Details</a></li>
-                                    </ul><!-- /.sub-menu -->
+                                    <a href="about.html" class="hover:text-green-600 transition-colors duration-300">About Us</a>
                                 </li>
                                 <li class="current">
-                                    <a href="contact.html">Contact</a>
+                                    <a href="contact.html" class="hover:text-green-600 transition-colors duration-300">Contact Us</a>
                                 </li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
@@ -161,57 +116,7 @@
             </header>
         </div>
 
-        <section class="page-header" style="background-image: url(assets/images/backgrounds/page-header-contact.jpg);">
-            <div class="container">
-                <h2>Contact</h2>
-                <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
-                    <li><span>Contact</span></li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="location">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="location_single">
-                            <h2>Austin</h2>
-                            <p>22 Texas West Hills</p>
-                            <a href="mailto:needhelp@agrikol.com">needhelp@agrikol.com</a><br>
-                            <a href="tel:666-888-0000">666 888 0000</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="location_single">
-                            <h2>broklyn</h2>
-                            <p>22 Texas West Hills</p>
-                            <a href="mailto:needhelp@agrikol.com">needhelp@agrikol.com</a><br>
-                            <a href="tel:666-888-0000">666 888 0000</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="location_single">
-                            <h2>New York</h2>
-                            <p>22 Texas West Hills</p>
-                            <a href="mailto:needhelp@agrikol.com">needhelp@agrikol.com</a><br>
-                            <a href="tel:666-888-0000">666 888 0000</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="location_single">
-                            <h2>Dubai</h2>
-                            <p>22 Texas West Hills</p>
-                            <a href="mailto:needhelp@agrikol.com">needhelp@agrikol.com</a><br>
-                            <a href="tel:666-888-0000">666 888 0000</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="contact-one">
+        <section class="contact-one mt-20">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-7">
@@ -262,7 +167,7 @@
                     <div class="col-xl-5">
                         <div class="have_questions">
                             <div class="image_box">
-                                <img src="assets/images/resources/contact_img.jpg" alt="">
+                                <img src="assets/images/resources/contact_img.png" alt="">
                             </div>
                             <div class="block-title text-center">
                                 <p>get in touch with us</p>
@@ -286,14 +191,11 @@
         </section>
 
         <section class="contact_google_map_1">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                class="google-map__contact1" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465497.47151730146!2d89.81040618906249!3d24.28724189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3756719ecec06ba5%3A0xb5e9852a73a60931!2sEarth%20Asia%20Agro!5e0!3m2!1sen!2sus!4v1749739555789!5m2!1sen!2sus" class="google-map__contact1" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
         <footer class="site-footer">
-            <div class="site-footer_farm_image"><img src="assets/images/resources/site-footer-farm.png"
-                    alt="Farm Image"></div>
+            <div class="site-footer_farm_image"><img src="assets/images/resources/site-footer-farm.png" alt="Farm Image"></div>
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-xl-4 col-lg-4 col-md-6">
@@ -319,43 +221,11 @@
                                 <h3>Explore</h3>
                             </div>
                             <ul class="footer-widget__links-list list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="product.html">Products</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="projects.html">Our Projects</a></li>
-                                <li><a href="farmers.html">Meet the Farmers</a></li>
-                                <li><a href="news.html">Latest News</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="footer-widget__column footer-widget__news wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__title">
-                                <h3>News</h3>
-                            </div>
-                            <ul class="footer-widget__news list-unstyled">
-                                <li>
-                                    <div class="footer-widget__news_image">
-                                        <img src="assets/images/resources/footer-1-img-1.jpg" alt="">
-                                    </div>
-                                    <div class="footer-widget__news_text">
-                                        <p><a href="news_detail.html"> Learn 10 Best Tips for New Formers</a></p>
-                                    </div>
-                                    <div class="footer-widget__news_date_box">
-                                        <p>30 Oct, 2019</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="footer-widget__news_image">
-                                        <img src="assets/images/resources/footer-1-img-2.jpg" alt="">
-                                    </div>
-                                    <div class="footer-widget__news_text">
-                                        <p><a href="news_detail.html">Farmer Sentiment Darkens Hopes Fade</a></p>
-                                    </div>
-                                    <div class="footer-widget__news_date_box">
-                                        <p>30 Oct, 2019</p>
-                                    </div>
-                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -365,14 +235,13 @@
                                 <h3>Contact</h3>
                             </div>
                             <div class="footer-widget_contact">
-                                <p>66 Broklyn Street, New Town<br>DC 5752, New Yrok</p>
-                                <a href="mailto:needhelp@agrikol.com">needhelp@agrikol.com</a><br>
-                                <a href="tel:666-888-0000">666 888 0000</a>
+                                <p>Abdar Bidhai, Kaoraid Union,<br>Sreepur, Gazipur, Bangladesh</p>
+                                <a href="mailto:earthasiaagro@gmail.com">earthasiaagro@gmail.com</a><br>
+                                <a href="tel:+8801820820878">+880 1820-820878</a>
                                 <div class="site-footer__social">
                                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -395,37 +264,27 @@
             </div>
         </div>
 
-
-
-
     </div><!-- /.page-wrapper -->
-
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
-
     <div class="side-menu__block">
-
-
         <div class="side-menu__block-overlay custom-cursor__overlay">
             <div class="cursor"></div>
             <div class="cursor-follower"></div>
         </div><!-- /.side-menu__block-overlay -->
         <div class="side-menu__block-inner ">
             <div class="side-menu__top justify-content-end">
-
                 <a href="#" class="side-menu__toggler side-menu__close-btn"><img
                         src="assets/images/shapes/close-1-1.png" alt=""></a>
             </div><!-- /.side-menu__top -->
-
 
             <nav class="mobile-nav__container">
                 <!-- content is loading via js -->
             </nav>
             <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
             <div class="side-menu__content">
-                <p><a href="mailto:needhelp@tripo.com">needhelp@tripo.com</a> <br> <a href="tel:888-999-0000">888 999
-                        0000</a></p>
+                <p><a href="mailto:earthasiaagro@gmail.com">earthasiaagro@gmail.com</a> <br> <a href="tel:+8801820820878">+880 1820-820878</a></p>
                 <div class="side-menu__social">
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -435,8 +294,6 @@
             </div><!-- /.side-menu__content -->
         </div><!-- /.side-menu__block-inner -->
     </div><!-- /.side-menu__block -->
-
-
 
     <div class="search-popup">
         <div class="search-popup__overlay custom-cursor__overlay">
@@ -450,7 +307,6 @@
             </form>
         </div><!-- /.search-popup__inner -->
     </div><!-- /.search-popup -->
-
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
