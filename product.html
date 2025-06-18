@@ -116,8 +116,6 @@
                     <div class="container clearfix flex justify-between items-center">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="main-nav__left flex items-center gap-4">
-                            <a href="#" class="main-nav__search search-popup__toggler"><i
-                                    class="icon-magnifying-glass"></i></a>
                             <a href="#" class="side-menu__toggler">
                                 <i class="fa fa-bars"></i>
                             </a>
@@ -142,13 +140,6 @@
                             </ul>
                         </div><!-- /.navbar-collapse -->
 
-                        <div class="main-nav__right">
-                            <div class="icon_cart_box">
-                                <a href="cart.html">
-                                    <span class="icon-shopping-cart"></span>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </nav>
             </header>
@@ -157,102 +148,13 @@
 
         <section class="product">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="sidebar-wrapper style2">
-                            <!--Start single sidebar-->
-                            <div class="single-sidebar wow fadeInUp animated" data-wow-delay="0.1s"
-                                data-wow-duration="1200ms">
-                                <div class="sidebar-search-box">
-                                    <form class="search-form" action="#">
-                                        <input placeholder="Search" type="text">
-                                        <button type="submit"><i class="icon-magnifying-glass"
-                                                aria-hidden="true"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!--End single sidebar-->
-                            <!--Start sidebar categories Box-->
-                            <div class="price_sidebar wow fadeInUp animated" data-wow-delay="0.3s"
-                                data-wow-duration="1200ms">
-                                <h3>Price</h3>
-                                <div class="price-ranger">
-                                    <div id="slider-range"></div>
-                                    <div class="ranger-min-max-block">
-                                        <input type="text" readonly class="min">
-                                        <span>-</span>
-                                        <input type="text" readonly class="max">
-                                        <input type="submit" value="Filter">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End sidebar categories Box-->
-                            <!--Start sidebar categories Box-->
-                            <div class="single-sidebar wow fadeInUp animated" data-wow-delay="0.3s"
-                                data-wow-duration="1200ms">
-                                <div class="categories-box">
-                                    <div class="title">
-                                        <h3>Categories</h3>
-                                    </div>
-                                    <ul class="categories clearfix">
-                                        <li><a href="#">Vegetables</a></li>
-                                        <li><a href="#">Fruit Basket</a></li>
-                                        <li><a href="#">Dairy Products</a></li>
-                                        <li><a href="#">Tomatos</a></li>
-                                        <li><a href="#">Oranges</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--End sidebar categories Box-->
-                            <!--Start single sidebar-->
-                            <!-- <div class="single-sidebar wow fadeInUp animated" data-wow-delay="0.5s"
-                                data-wow-duration="1200ms">
-                                <div class="top_sellers">
-                                    <div class="title">
-                                        <h3>Top Products</h3>
-                                    </div>
-                                    <ul class="top-products">
-                                        <li>
-                                            <div class="product_item">
-                                                <div class="img-box">
-                                                    <img src="assets/images/shop/top-product-1.jpg" alt="Awesome Image">
-                                                    <div class="overlay-content">
-                                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h4><a href="#">Wheat Bag</a></h4>
-                                                    <div class="value">$9.99</div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="product_item">
-                                                <div class="img-box">
-                                                    <img src="assets/images/shop/top-product-2.jpg" alt="Awesome Image">
-                                                    <div class="overlay-content">
-                                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h4><a href="#">Pinepale</a></h4>
-                                                    <div class="value">$9.99</div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> -->
-                            <!--End single sidebar-->
-
-                        </div>
-                    </div>
+                <div class="row justify-content-center">
                     <!--End Sidebar Wrapper-->
-                    <div class="col-xl-9 col-lg-9">
+                    <div class="col-xl-9 col-lg-9 mx-auto">
                         <div class="product-items">
                             <div class="row">
                                 <div class="col-xl-12">
-                                    <div class="showing-result-shorting">
+                                    <!-- <div class="showing-result-shorting">
                                         <div class="left">
                                             <div class="showing">
                                                 <p>Showing 1-9 of 20 Results</p>
@@ -269,11 +171,11 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="all_products">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="all_products_single text-center">
                                             <div class="all_product_item_image">
@@ -475,14 +377,14 @@
         <div class="search-popup__overlay custom-cursor__overlay">
             <div class="cursor"></div>
             <div class="cursor-follower"></div>
-        </div><!-- /.search-popup__overlay -->
+        </div>
         <div class="search-popup__inner">
             <form action="#" class="search-popup__form">
                 <input type="text" name="search" placeholder="Type here to Search....">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
-        </div><!-- /.search-popup__inner -->
-    </div><!-- /.search-popup -->
+        </div>
+    </div>
 
 
     <script src="assets/js/jquery.min.js"></script>
